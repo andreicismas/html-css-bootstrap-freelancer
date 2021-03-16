@@ -1,14 +1,50 @@
  .row [class^=col-] {
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: rgba(1, 116, 45, 0.15);
     border: 1px solid rgb(224, 59, 59);
+    text-align: center;
  } 
 
-.max_width{
+.color_nav{
    background-color: #2C3E50;
    text-align: center ;
    color: white;
 
 }
 
+
+.white_main{
+   
+    background-color: white;
+
+}
+
+.color_main_1{
+    background-color: #1ABC9C;
+}
+
+.color_footer{
+    background-color: #3A546D;
+}
+
+.color_footer_1{
+    background-color: #2C3E50;
+}
+
+
+/* UTILITY CLASS */
+
+.h-400{
+    height: 400px;
+}
+
+.h-300{
+    height: 300px;
+}
+.h-200{
+    height: 200px;
+}
+
+.h-100{
+    height: 100px;
+}
