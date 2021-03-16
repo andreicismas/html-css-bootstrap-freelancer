@@ -1,0 +1,14 @@
+ .row [class^=col-] {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(1, 116, 45, 0.15);
+    border: 1px solid rgb(224, 59, 59);
+ } 
+
+.max_width{
+   background-color: #2C3E50;
+   text-align: center ;
+   color: white;
+
+}
+
