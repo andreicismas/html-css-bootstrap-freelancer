@@ -39,11 +39,19 @@
     font-size: 40px;
 }
 
+
+.container_line_star{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+
 .line_star{
     display:inline-block;
     min-width: 20px;
     width: 30%;
     max-width: 120px;
+   
     border: 2px solid white;
 }
 
@@ -61,8 +69,14 @@
     padding-bottom: 15px; 
 }
 
+.container_main_line{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
 .container_main_line_star>.line_star{
     border:2px solid #2C3E50 ;
+
 }
 
 /* SECTION COLORS */
