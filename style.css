@@ -11,7 +11,8 @@
 }
 
 .color_nav_my_style .navbar-brand,
-.color_nav_my_style .nav>li>a{
+.color_nav_my_style .nav>li>a,
+.color_main_1{
     color: white;
 }
 
@@ -23,18 +24,51 @@
 
 /* START MAIN */
 
+.color_main_1{
+    background-color: #1ABC9C;
+}
+
+
 
 .img_container{
-    max-width: 200px;
+    max-width: 150px;
+}
+
+.title_style{
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.line_star{
+    display:inline-block;
+    min-width: 20px;
+    width: 30%;
+    max-width: 120px;
+    border: 2px solid white;
+}
+
+.under_title{
+    font-size: 18px;
+}
+
+.sec_padd{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.container_img_main{
+    padding-top: 15px;
+    padding-bottom: 15px; 
+}
+
+.container_main_line_star>.line_star{
+    border:2px solid #2C3E50 ;
 }
 
 /* SECTION COLORS */
 
 
 
-.color_main_1{
-    background-color: #1ABC9C;
-}
 
 .color_footer{
     background-color: #3A546D;
@@ -52,4 +86,6 @@
 
 .h-100{
     min-height: 100px;
+    
 }
+
