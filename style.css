@@ -108,6 +108,10 @@
     background-color: #1ABC9C;
 }
 
+/* STOP MAIN */
+
+/* START FOOTER */
+
 .color_footer .container .container_social a{
     border: 1px solid white;
     border-radius: 50%;
@@ -120,16 +124,12 @@
 .color_footer_text{
     color:#1ABC9C;
 }
-/* SECTION COLORS */
-
-
-
 
 .color_footer{
     padding-top: 30px;
     padding-bottom: 30px;
     background-color: #3A546D;
-
+    
 }
 
 .color_footer_1{
@@ -138,14 +138,6 @@
     padding-bottom: 30px;
 }
 
+/* STOP FOOTER */
 
-/* UTILITY CLASS */
-
-
-
-
-.h-100{
-    min-height: 100px;
-    
-}
 
