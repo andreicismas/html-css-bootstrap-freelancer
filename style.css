@@ -1,6 +1,7 @@
 
 /* START NAV BAR */
-.color_nav_my_style{
+.color_nav_my_style,
+.color_footer_1{
    background-color: #2C3E50;
    border-radius: 0;
    margin-bottom: 0;
@@ -12,7 +13,9 @@
 
 .color_nav_my_style .navbar-brand,
 .color_nav_my_style .nav>li>a,
-.color_main_1{
+.color_main_1,
+.color_footer,
+.color_footer_1{
     color: white;
 }
 
@@ -23,6 +26,12 @@
 /* STOP NAV BAR */
 
 /* START MAIN */
+
+
+.sec_padd{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 
 .color_main_1{
     background-color: #1ABC9C;
@@ -59,10 +68,7 @@
     font-size: 18px;
 }
 
-.sec_padd{
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
+
 
 .container_img_main{
     padding-top: 15px;
@@ -79,17 +85,57 @@
 
 }
 
+.btn_container_default{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.btn_default{
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.form-control{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    box-shadow: none;
+    border-radius: 0;
+    margin-bottom: 10px;
+}
+
+.btn_send_style{
+    background-color: #1ABC9C;
+}
+
+.color_footer .container .container_social a{
+    border: 1px solid white;
+    border-radius: 50%;
+    color: white;
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+}
+
+.color_footer_text{
+    color:#1ABC9C;
+}
 /* SECTION COLORS */
 
 
 
 
 .color_footer{
+    padding-top: 30px;
+    padding-bottom: 30px;
     background-color: #3A546D;
+
 }
 
 .color_footer_1{
     background-color: #2C3E50;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 
