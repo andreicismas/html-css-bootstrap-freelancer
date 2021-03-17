@@ -1,25 +1,36 @@
- .row [class^=col-] {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border: 1px solid rgb(224, 59, 59);
-    text-align: center;
-} 
 
-
-.color_nav{
+/* START NAV BAR */
+.color_nav_my_style{
    background-color: #2C3E50;
-   text-align: center ;
-   color: white;
+   border-radius: 0;
+   margin-bottom: 0;
+}
 
+.color_nav_my_style .nav>li>a:hover{
+    background-color:transparent;
+}
+
+.color_nav_my_style .navbar-brand,
+.color_nav_my_style .nav>li>a{
+    color: white;
+}
+
+.icon_bar_style{
+    background-color: white;
+} 
+ 
+/* STOP NAV BAR */
+
+/* START MAIN */
+
+
+.img_container{
+    max-width: 200px;
 }
 
 /* SECTION COLORS */
 
-.white_main{
-   
-    background-color: white;
 
-}
 
 .color_main_1{
     background-color: #1ABC9C;
@@ -36,17 +47,9 @@
 
 /* UTILITY CLASS */
 
-.h-400{
-    height: 400px;
-}
 
-.h-300{
-    height: 300px;
-}
-.h-200{
-    height: 200px;
-}
+
 
 .h-100{
-    height: 100px;
+    min-height: 100px;
 }
